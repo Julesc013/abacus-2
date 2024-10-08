@@ -5,14 +5,15 @@
 ```
 ├── archive             Archived and old versions of files.
 ├── hardware            Hardware design and circuitry.
+│   ├── cassette            Cassette tape data storage.
+│   ├── chipset             Northbridge, southbridge, I/O, wait states, etc.
+│   ├── floppy              Floppy diskette data storage.
 │   ├── instructions        Instruction set architecture.
 │   ├── interrupts          Interrupt tables and circuits.
 │   ├── memory              Memory maps, wait states, DMA, etc.
-│   ├── todo                Todo lists and general notes.
-│   ├── serial              Serial ports and teletype communication.
 │   ├── printer             Parallel ports and printer communication.
-│   ├── cassette            Cassette tape data storage.
-│   ├── floppy              Floppy diskette data storage.
+│   ├── serial              Serial ports and teletype communication.
+│   ├── todo                Todo lists and general notes.
 │   └── video               Video text and graphics output.
 ├── info                General project information and metadata.
 │   ├── datasheets          Relevant datasheets.
@@ -22,7 +23,7 @@
 ├── simulation          Virtual simulation of processor.
 │   ├── digital             Implementation in Digital.
 │   └── logisim             Implementation in Logisim Evolution.   
-└── hardware            Software, firmware, drivers, operating systems, etc.
+└── software            Software, firmware, drivers, operating systems, etc.
     ├── assembler           Assembler and linker.
     ├── basic               Implementation of Microsoft 8K BASIC.
     ├── bios                Disk loaders, bootstrappers, system calls, etc.
