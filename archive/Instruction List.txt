@@ -1,0 +1,41 @@
+inst [mod], w[dst]w[src], [adr/lit]...
+6-2, 1-3-1-3, 8x...
+
+
+nop  xx                               \\ no operation
+
+ld   00, x[dst] x[src]                \\ load b/w @ src > dst; if dst is word, load 2 addresses
+ld   01, 0[dst]       , [adr]         \\ load byte @ adr > dst
+ld   01, 1[dst]       , [adr], [adr]  \\ load word @ adr > dst
+ld   10, 0[dst]       , [lit]         \\ load byte lit > dst
+ld   10, 1[dst]       , [lit], [lit]  \\ load word lit > dst
+
+str  00, x[dst] x[src]                \\ dst is memory address, src is memory contents; if src is word, store 2 addresses
+str  01, 0      x[src], [adr]         \\ 
+str  01, 1      x[src], [adr], [adr]  \\ 
+
+mov  xx, x[dst] x[src]                \\ copy src contents > dst; is src is wider than dst, copy only high/low byte; some registers cannot be written to using mov; (ld & str should be mov)
+
+out  00, x[dvc] x[src]                \\ copy b/w @ src > i/o device; if dst is word, copy 2 addresses
+out  10, x[dvc] 0     , [lit]         \\ copy byte lit > dvc
+out  10, x[dvc] 1     , [lit], [lit]  \\ copy word lit > dvc
+
+in   00, x[dst] x[dvc]                \\ copy b/w from i/o device > dst; if dvc wider than dst, copy only high/low byte
+
+add  00, x[dst] x[src]                \\ add b/w @ src to> dst; if dst is word, add 2 addresses
+add  01, 0[dst]       , [adr]         \\ add byte @ adr to> dst
+add  01, 1[dst]       , [adr], [adr]  \\ add word @ adr to> dst
+add  10, 0[dst]       , [lit]         \\ add byte lit to> dst
+add  10, 1[dst]       , [lit], [lit]  \\ add word lit to> dst
+
+sub  00, x[dst] x[src]                \\ sub b/w @ src from> dst; if dst is word, add 2 addresses
+sub  01, 0[dst]       , [adr]         \\ sub byte @ adr from> dst
+sub  01, 1[dst]       , [adr], [adr]  \\ sub word @ adr from> dst
+sub  10, 0[dst]       , [lit]         \\ sub byte lit from> dst
+sub  10, 1[dst]       , [lit], [lit]  \\ sub word lit from> dst
+
+hlt  xx                               \\ halt operation
+
+
+
+jmp, conditionals, call, ret; logic;
