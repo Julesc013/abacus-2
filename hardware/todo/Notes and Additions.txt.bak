@@ -1,0 +1,64 @@
+
+USE THE 6502 AND 8086 BLOCK DIAGRAMS TO DESIGN THE CPU AND ENSURE THAT WE DONT MISS ANY COMPONENTS !!!
+
+Does the DMA Controller need its own Interrupt Channel???
+Include DMA circuitry on the Interrupt Controller card.
+
+
+have TEMP register for immediate operators such as SEGMENT-INCREMENT... if seg-inc by 4, seg register is added to temp register which contains 4.
+
+
+For arithmetic and logic instructions, match opcodes to that of the 74181 (CMP is 00-000111)
+
+
+have front panel switches (dual point, floating default) that manually set SR-latched of flags register when in Program mode.
+
+Have an external control panel that plugs into the computer front panel
+External controls include a 555 variable clock, an ammeter/voltmeter, various other more specific indicator lights, etc
+
+
+Sound chip is AY8930.
+To play music, use raster interrupts to run a routine every 0.02s that takes instructions from memory and updates the sound chip's registers.
+This way, songs can be stored in DATA memory instead of the CPU having to execute music generation code from CODE memory.
+Have a time multiplier (8bit value) that is used in a countdown register (in zero page) to update values every N raster interrupts. Basically makes the song play slower, but saves memory.
+
+
+Support BURST/BLOCK and CYCLE STEALING DMA modes!!
+
+
+each bus connector can CLK, RST, CLR (memory clear), INTREQ (int request), plus DMA service lines.
+CHIP ENABLE signals sent over a multiplexed set of lines (4 instead of 16 parallel). The CS number selects the expansion port, then the expansion device has to read the Address rfom the bus and route the CS signal to the SPECIFIC REGISTER that is being addressed.
+
+
+SEE EXTERNAL TXT FILE FOR INTERRUPT INFORMATION!
+
+
+IMPORTANT: Should there be a buffer in-between the "CPU internal bus" and the "external bus"? Or should they be directly wired.
+I imagine having a buffer would introduce a propegation delay? Is it important to have for DMA?
+
+
+How do bus device control registers work? are they directly tied to control lines? Is there logic behind them?
+Dont forget to tie the control register outputs low.
+
+
+
+A few GPIO pins exposed on motherboard with VCC pins beside them for jumping, these pins are pulled to ground so whe they arent jumped they are low. Can be read by the system as hard coded variables eg. for expansion configuration.
+
+ORDER SOME PCB CUT OFFS THAT ARE JUST GOLDFINGER TO BREADBOARD-PIN-HOLES ADAPTERS (so that we can just use regular DIY 90DEG EDGE PINS to plug into the bus).
+
+
+Status flags (lsb to msb): CARRY, ZERO, OVERFLOW, SIGN, PARITY.
+Control flags (lsb to msb): INTERRUPT-ENABLE, MEMORY-TRANSPARENCY, ROM-PROTECT, STACK-SIZE (1 to 3 bits?), DIRECTION (?), MATHEMATICS-COPROCESSOR-PRESENT, GRAPHICS-COPROCESSOR-PRESENT.
+System flags (lsb to msb): HALTED, WAITING, STACK-OVERFLOW.
+
+(Memory-transparency = 1 allows you to write to underlying RAM as opposed to mapped I/O or ROM)
+(ROM-protect = 1 prevents the ROM chip from being written to)
+(Stack-size = determines whether that stack sould be 1KB or 8KB large)
+(Stack-overflow = Bit is set if the stack counter overflows and STAYS ON until it is acknowledged/reset)
+
+
+Registers: 4 GENERAL PURPOSE (2x8b), PROG-COUNT (16b), STACK-POINTER [NEG-COUNTER] (10b-13b), BASE-POINTER (10b-13b), FLAGS (16b?).
+
+
+
+NAH: --have dip switches on the board that determine how much ram is installed... the dip switches can act as a byte in memory.--

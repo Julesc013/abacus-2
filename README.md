@@ -4,8 +4,7 @@
 ## Directory Structure
 ```
 ├── archive             Archived and old versions of files.
-├── design              Files describing the design of the system.
-│   ├── executables         Executable file formats and disk formats.
+├── hardware            Hardware design and circuitry.
 │   ├── instructions        Instruction set architecture.
 │   ├── interrupts          Interrupt tables and circuits.
 │   ├── memory              Memory maps, wait states, DMA, etc.
@@ -20,7 +19,13 @@
 │   ├── manual              User and technical manuals for the system.
 │   └── parts               Parts lists and records.
 ├── schematics          Schematics and technical drawings.
-└── simulation          Virtual simulation of processor.
-    ├── digital             Implementation in Digital.
-    └── logisim             Implementation in Logisim Evolution.
+├── simulation          Virtual simulation of processor.
+│   ├── digital             Implementation in Digital.
+│   └── logisim             Implementation in Logisim Evolution.   
+└── hardware            Software, firmware, drivers, operating systems, etc.
+    ├── assembler           Assembler and linker.
+    ├── basic               Implementation of Microsoft 8K BASIC.
+    ├── bios                Disk loaders, bootstrappers, system calls, etc.
+    ├── compiler            Compiler for K&R C.
+    └── executables         Executable file formats and disk formats.
 ```
