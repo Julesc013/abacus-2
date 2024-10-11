@@ -21,7 +21,7 @@
 
 ### System Firmware
 
-### User Manual
+## User Manual
 
 ## Directory Structure
 ```
