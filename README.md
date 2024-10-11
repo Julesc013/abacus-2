@@ -1,5 +1,27 @@
-# Abacus 2 & Carbon 1
+# Abacus 2 Project
 *Abacus 2 Processor and Carbon 1 System*
+
+## Specifications
+
+- Processor: Abacus 2
+- Speed: ≤ 8 MHz
+- Memory: ≤ 16 MB
+
+## Design Showcase
+
+### Notes and Planning
+
+### Instruction Set
+
+### Interrupt Handling
+
+### Memory and I/O
+
+### Video Output
+
+### System Firmware
+
+### User Manual
 
 ## Directory Structure
 ```
