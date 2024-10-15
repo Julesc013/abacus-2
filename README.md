@@ -4,22 +4,42 @@
 ## Specifications
 
 - Processor: Abacus 2
-- Speed: ≤ 8 MHz
-- Memory: ≤ 16 MB
+- Bus Width: 16 Bits
+- Speed: 1 MHz ≤ 8 MHz
+- Memory: 4 KB ≤ 16 MB
 
 ## Design Showcase
 
-### Notes and Planning
+### System Architecture
+
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/z00.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c07.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c04.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
 
 ### Instruction Set
 
-### Interrupt Handling
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i03.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01.JPG)
 
 ### Memory and I/O
+
+### Interrupt Handling
+
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/i04.JPG)
 
 ### Video Output
 
 ### System Firmware
+
+![](https://github.com/Julesc013/abacus-2/blob/main/software/bios/m00.JPG)
+
+## Physical Case
+
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s00.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s01.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s02.JPG)
 
 ## User Manual
 
