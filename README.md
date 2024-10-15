@@ -24,6 +24,8 @@
 
 ### Memory and I/O
 
+![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
+
 ### Interrupt Handling
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01.JPG)
