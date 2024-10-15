@@ -17,14 +17,14 @@
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c04.JPG)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
 
+### Memory and I/O
+
+![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
+
 ### Instruction Set
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i03.JPG)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01.JPG)
-
-### Memory and I/O
-
-![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
 
 ### Interrupt Handling
 
