@@ -40,12 +40,15 @@
 ### System Firmware
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/software/bios/m00.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/software/executables/Binary%20File%20Format.png)
 
 ## Physical Case
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s00s01s02.jpg)
 
 ## User Manual
+
+![](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Manual%20Layout.png)
 
 ## Directory Structure
 ```
