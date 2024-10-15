@@ -12,13 +12,13 @@
 
 ### System Architecture
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/z00.jpg)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/z00.JPG)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c04c07.jpg)
 
 ### Memory and I/O
 
 ![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.jpg)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
 
 ### Instruction Set
 
