@@ -24,8 +24,8 @@
 
 ![Abacus 2 Instruction Set](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Abacus%202%20Instruction%20Set.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Opcode%20Map%20V8C.jpg)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01i03.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Addressing%20Modes.jpg)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01i03.jpg)
 
 ### Interrupt Handling
 
