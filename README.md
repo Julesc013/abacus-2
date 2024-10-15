@@ -22,8 +22,7 @@
 
 ### Instruction Set
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i03.JPG)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01i03.JPG)
 
 ### Interrupt Handling
 
