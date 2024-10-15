@@ -26,8 +26,7 @@
 
 ### Interrupt Handling
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01.JPG)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/i04.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01i04.JPG)
 
 ### Video Output
 
