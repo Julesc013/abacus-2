@@ -47,6 +47,7 @@
 ```
 ├── archive             Archived and old versions of files.
 ├── hardware            Hardware design and circuitry.
+│   ├── case                Physical design of machine.
 │   ├── cassette            Cassette tape data storage.
 │   ├── chipset             Northbridge, southbridge, I/O, wait states, etc.
 │   ├── floppy              Floppy diskette data storage.
