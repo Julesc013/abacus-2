@@ -36,9 +36,7 @@
 
 ## Physical Case
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s00.JPG)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s01.JPG)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s02.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/case/s00s01s02.jpg)
 
 ## User Manual
 
