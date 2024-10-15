@@ -34,6 +34,9 @@
 
 ### Video Output
 
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/video/video_adapter/CDA%20Technical.png)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/video/video_adapter/CHAR_SET.PNG)
+
 ### System Firmware
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/software/bios/m00.JPG)
