@@ -12,21 +12,21 @@
 
 ### System Architecture
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/z00.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/z00.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c04c07.jpg)
 
 ### Memory and I/O
 
 ![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.jpg)
 
 ### Instruction Set
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01i03.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01i03.jpg)
 
 ### Interrupt Handling
 
-![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01i04.JPG)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01i04.jpg)
 
 ### Video Output
 
