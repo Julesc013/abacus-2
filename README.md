@@ -22,10 +22,14 @@
 
 ### Instruction Set
 
+![Abacus 2 Instruction Set](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Abacus%202%20Instruction%20Set.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/i01i03.jpg)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Opcode%20Map%20V8C.jpg)
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Addressing%20Modes.pdf)
 
 ### Interrupt Handling
 
+![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/Interrupt%20List.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01i04.jpg)
 
 ### Video Output
