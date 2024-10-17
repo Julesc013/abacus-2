@@ -10,7 +10,7 @@
 - _CPU:_ **Abacus 2** (16-bit CISC)
 - _FPU:_ **AMD Am9511** (Non-IEEE 754)
 - _Clock:_ 1 Hz ~ **16 MHz** (Crystal FM)
-- _RAM:_ 4 KB – **16 MB** (SRAM)
+- _RAM:_ 4 KB – **15 MB** (SRAM)
 - _ROM:_ 4 KB – **1 MB** (PROM)
 - _TDD:_ **Compact Cassette** (KCS 240KB/HR)
 - _FDD:_ **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
@@ -31,7 +31,7 @@
 
 ### Memory and I/O
 
-4KB–16MB SRAM (8-bit bytes)
+4KB–15MB SRAM (8-bit bytes)
 
 4KB–1MB PROM (8-bit bytes)
 
