@@ -7,16 +7,16 @@
 
 ## Specifications
 
-- CPU: **Abacus 2** (16-bit CISC)
-- FPU: **AMD Am9511** (Non-IEEE 754)
-- Clock: 1 Hz ~ **16 MHz** (Crystal FM)
-- RAM: 4 KB – **16 MB** (SRAM)
-- ROM: 4 KB – **1 MB** (PROM)
-- TDD: **Compact Cassette** (KCS)
-- FDD: **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
-- Comms: **Serial** (RS-232), **Parallel** (DB-25)
-- Video: **Text Only**, 480p – 2160p (VESA compatible)
-- Audio: **Yamaha** (SoundBlaster compatible)
+- _CPU:_ **Abacus 2** (16-bit CISC)
+- _FPU:_ **AMD Am9511** (Non-IEEE 754)
+- _Clock:_ 1 Hz ~ **16 MHz** (Crystal FM)
+- _RAM:_ 4 KB – **16 MB** (SRAM)
+- _ROM:_ 4 KB – **1 MB** (PROM)
+- _TDD:_ **Compact Cassette** (KCS)
+- _FDD:_ **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
+- _Comms:_ **Serial** (RS-232), **Parallel** (DB-25)
+- _Video:_ **Text Only**, 480p – 2160p (VESA compatible)
+- _Audio:_ **Yamaha** (SoundBlaster compatible)
 
 
 ## Design Showcase
