@@ -7,10 +7,16 @@
 
 ## Specifications
 
-- Processor: Abacus 2
-- Bus Width: 16 Bits
-- Speed: 1 MHz ≤ 8 MHz
-- Memory: 4 KB ≤ 16 MB
+- CPU: Abacus 2 (16-bit CISC)
+- FPU: AMD Am9511 (Non-IEEE 754)
+- Clock: 1 Hz ~ 16 MHz (Crystal FM)
+- RAM: 4 KB – 16 MB (SRAM)
+- ROM: 4 KB – 1 MB (PROM)
+- TDD: Compact Cassette (KCS)
+- FDD: Floppy disk (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
+- Comms: Serial (RS-232), Parallel (DB-25)
+- Video: Text only, 480p – 2160p (VESA compatible)
+- Audio: Yamaha (SoundBlaster compatible)
 
 
 ## Design Showcase
