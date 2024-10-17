@@ -1,5 +1,6 @@
 # Abacus 2 Project
 *Abacus 2 Processor and Carbon 1 System*
+[Abacus 2 Technical Reference PDF](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf)
 
 ## Specifications
 
@@ -12,16 +13,20 @@
 
 ### System Architecture
 
+16-bit CISC (Von Neumann)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/z00.JPG)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c04c07.jpg)
 
 ### Memory and I/O
 
+4KB–16MB SRAM (8-bit bytes)
+4KB–1MB PROM (8-bit bytes)
 ![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
 
 ### Instruction Set
 
+Abacus ISA (44 instructions)
 ![Abacus 2 Instruction Set](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Abacus%202%20Instruction%20Set.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Opcode%20Map%20V8C.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/instructions/Addressing%20Modes.jpg)
@@ -29,16 +34,19 @@
 
 ### Interrupt Handling
 
+16 hardware int's, 110 software int's, 1 non-maskable int, 1 reset int.
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/Interrupt%20List.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01i04.jpg)
 
 ### Video Output
 
+VESA compatible
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/video/video_adapter/CDA%20Technical.png)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/video/video_adapter/CHAR_SET.PNG)
 
 ### System Firmware
 
+Resident monitor, loaders, system routines, etc.
 ![](https://github.com/Julesc013/abacus-2/blob/main/software/bios/m00.JPG)
 ![](https://github.com/Julesc013/abacus-2/blob/main/software/executables/Binary%20File%20Format.png)
 
@@ -49,6 +57,7 @@
 ## User Manual
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Manual%20Layout.png)
+[Abacus 2 Technical Reference PDF](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf)
 
 ## Directory Structure
 ```
