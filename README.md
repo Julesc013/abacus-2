@@ -2,7 +2,7 @@
 
 *Abacus 2 Processor and Carbon 1 System*
 
-[Abacus 2 Technical Reference PDF](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf)
+[Abacus 2 Technical Reference](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf) (PDF)
 
 
 ## Specifications
@@ -84,7 +84,7 @@ Resident monitor, loaders, system routines, etc.
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Manual%20Layout.png)
 
-[Abacus 2 Technical Reference PDF](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf)
+[Abacus 2 Technical Reference](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf) (PDF)
 
 
 ## Directory Structure
