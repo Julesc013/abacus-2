@@ -12,7 +12,7 @@
 - _Clock:_ 1 Hz ~ **16 MHz** (Crystal FM)
 - _RAM:_ 4 KB – **16 MB** (SRAM)
 - _ROM:_ 4 KB – **1 MB** (PROM)
-- _TDD:_ **Compact Cassette** (KCS)
+- _TDD:_ **Compact Cassette** (KCS 240KB/HR)
 - _FDD:_ **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
 - _Comms:_ **Serial** (RS-232), **Parallel** (DB-25)
 - _Video:_ **Text Only**, 480p – 2160p (VESA compatible)
