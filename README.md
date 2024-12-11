@@ -15,8 +15,8 @@
 - _TDD:_ **Compact Cassette** (KCS 240KB/HR)
 - _FDD:_ **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
 - _Comms:_ **Serial** (RS-232), **Parallel** (DB-25)
-- _Video:_ **Text Only**, 480p – 1080p (VESA compatible)
-- _Audio:_ **Yamaha** (SoundBlaster compatible)
+- _Video:_ **Yamaha V9958**, 480p (VESA compatible)
+- _Audio:_ **Yamaha OPNB** (SoundBlaster compatible)
 
 
 ## Design Showcase
