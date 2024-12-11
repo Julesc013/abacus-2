@@ -1,8 +1,8 @@
-# Abacus 2 Project
+# Project Codename: Abacus 2
 
-*Abacus 2 Processor and Carbon 1 System*
+*Carbon A1 Minicomputer System* and *Carbon Z1 Microcomputer System*
 
-[Abacus 2 Technical Reference](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf) (PDF)
+[Project Abacus 2 Technical Reference](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf) (PDF)
 
 
 ## Specifications
