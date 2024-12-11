@@ -1,6 +1,6 @@
 # Project Codename: Abacus 2
 
-**Carbon A1 Minicomputer and Carbon Z1 Microcomputer**
+**Carbon A1 Minicomputer** and **Carbon Z1 Microcomputer**
 
 [Project Abacus 2 Technical Reference](https://github.com/Julesc013/abacus-2/blob/main/info/manual/Abacus%202%20Technical%20Reference.pdf) (PDF)
 
