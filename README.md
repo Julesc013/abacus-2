@@ -35,7 +35,7 @@
 
 4KB–1MB PROM (8-bit bytes)
 
-![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%20V5.1.png)
+![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%205V.png)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
 
 
