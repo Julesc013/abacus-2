@@ -13,7 +13,7 @@
 - _RAM:_ 48 KB – **1 MB** (SRAM)
 - _ROM:_ 8 KB – **128 KB** (PROM)
 - _I/O:_ 8 KB – **256 KB** (Memory Mapped)
-- _TDD:_ **Compact Cassette** (KCS 240KB/HR)
+- _TDD:_ **Compact Cassette** (KCS 240KB/hr)
 - _FDD:_ **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
 - _Comms:_ **Serial** (RS-232), **Parallel** (DB-25)
 - _Video:_ **Yamaha V9958**, 480p (VESA compatible)
