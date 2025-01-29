@@ -10,7 +10,7 @@
 - _CPU:_ **Abacus 2** or **Zilog Z80** (16-bit CISC)
 - _FPU:_ **AMD Am9511** (Pre-IEEE 754)
 - _Clock:_ 1 Hz ~ **16 MHz** (Crystal FM)
-- _RAM:_ 48 KB – **1 MB** (SRAM)
+- _RAM:_ 48 KB – **640 KB** (SRAM)
 - _ROM:_ 8 KB – **128 KB** (PROM)
 - _I/O:_ 8 KB – **256 KB** (Memory Mapped)
 - _TDD:_ **Compact Cassette** (KCS 240KB/hr)
