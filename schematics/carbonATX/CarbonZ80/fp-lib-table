@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Carbonz80_Library")(type "KiCad")(uri "${KIPRJMOD}/Carbonz80_Library.pretty")(options "")(descr ""))
+)
