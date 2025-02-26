@@ -36,13 +36,13 @@
 
 4KB–1MB PROM (8-bit bytes)
 
-![Memory map version 5.1](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%205V.png)
+![Memory map version 6](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%206.png)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
 
 
 ### Instruction Set
 
-Abacus ISA (44 instructions)
+Abacus ISA (44 instructions) or Z80 ISA.
 
 Integrated FPU (AMD AM9511)
 
@@ -54,7 +54,7 @@ Integrated FPU (AMD AM9511)
 
 ### Interrupt Handling
 
-16 hardware int's, 110 software int's, 1 non-maskable int, 1 reset int.
+16 hardware int's, 110 software int's, 1 non-maskable int, 1 reset int; or Z80 Mode 2 interrupt scheme.
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/Interrupt%20List.jpg)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/interrupts/v01i04.jpg)
@@ -62,7 +62,7 @@ Integrated FPU (AMD AM9511)
 
 ### Video Output
 
-VESA compatible
+VESA compatible (maybe)
 
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/video/video_adapter/CDA%20Technical.png)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/video/video_adapter/CHAR_SET.PNG)
