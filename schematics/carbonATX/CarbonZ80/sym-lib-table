@@ -13,4 +13,5 @@
   (lib (name "Zilog_Z180")(type "Legacy")(uri "${KIPRJMOD}/Zilog_Library/Zilog_Z180.lib")(options "")(descr ""))
   (lib (name "Zilog_Z8000")(type "Legacy")(uri "${KIPRJMOD}/Zilog_Library/Zilog_Z8000.lib")(options "")(descr ""))
   (lib (name "8Bit_Chips")(type "Legacy")(uri "${KIPRJMOD}/8Bit_Chip_Library/8bits.lib")(options "")(descr ""))
+  (lib (name "CarbonZ80_Library")(type "KiCad")(uri "${KIPRJMOD}/CarbonZ80_Library/CarbonZ80_Library.kicad_sym")(options "")(descr ""))
 )
