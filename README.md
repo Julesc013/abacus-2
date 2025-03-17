@@ -32,9 +32,11 @@
 
 ### Memory and I/O
 
-4KB–15MB SRAM (8-bit bytes)
+4KB–640KB SRAM (8-bit bytes)
 
-4KB–1MB PROM (8-bit bytes)
+4KB–128KB PROM (8-bit bytes)
+
+Up to 256KB memory mapped I/O.
 
 ![Memory map version 6](https://github.com/Julesc013/abacus-2/blob/main/hardware/memory/Memory%20Map%206.png)
 ![](https://github.com/Julesc013/abacus-2/blob/main/hardware/chipset/c01.JPG)
