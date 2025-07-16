@@ -2756,381 +2756,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "74xx:74LS74"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LS74"
-				(at -7.62 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "74xx/74hc_hct74.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual D Flip-flop, Set & Reset"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL DFF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS74_1_0"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~{S}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~{R}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS74_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LS74_2_0"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "~{S}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "~{R}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "Q"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~{Q}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS74_2_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LS74_3_0"
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS74_3_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "8Bit_Chips:W27C512"
 			(pin_names
 				(offset 1.016)
@@ -17804,16 +17429,6 @@
 		)
 		(uuid "0af5cd64-44ee-4093-bf07-4d0bdca309d0")
 	)
-	(wire
-		(pts
-			(xy 317.5 -73.66) (xy 317.5 -64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bee5252-f6be-49e8-a78f-98eaa3f4113c")
-	)
 	(bus
 		(pts
 			(xy 148.59 49.53) (xy 148.59 52.07)
@@ -18914,16 +18529,6 @@
 		)
 		(uuid "2bd22998-a258-446f-8221-0aa63e85b1b3")
 	)
-	(wire
-		(pts
-			(xy 342.9 -59.69) (xy 342.9 -73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c39fc56-5a60-4c18-b681-b9278086a0c7")
-	)
 	(bus
 		(pts
 			(xy 205.74 382.27) (xy 205.74 379.73)
@@ -19133,16 +18738,6 @@
 			(type default)
 		)
 		(uuid "306f274c-afbf-41f9-a2fc-51a3a975d880")
-	)
-	(wire
-		(pts
-			(xy 337.82 -59.69) (xy 342.9 -59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "307fd497-1caa-4569-b88f-41bce4bd9eba")
 	)
 	(bus
 		(pts
@@ -20803,16 +20398,6 @@
 			(type default)
 		)
 		(uuid "57cd8e54-b650-47b1-9b8a-9bc3ae96ecd4")
-	)
-	(wire
-		(pts
-			(xy 342.9 -73.66) (xy 317.5 -73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d191b5-ccca-4d23-a74e-432cc75d9a25")
 	)
 	(wire
 		(pts
@@ -23936,16 +23521,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 -62.23) (xy 322.58 -62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac62d701-c2cc-40c1-b2bd-41bbe125a99f")
-	)
-	(wire
-		(pts
 			(xy 219.71 -105.41) (xy 226.06 -105.41)
 		)
 		(stroke
@@ -24964,16 +24539,6 @@
 		)
 		(uuid "c1fc5131-d8da-484f-9ace-ab785e03872d")
 	)
-	(wire
-		(pts
-			(xy 337.82 -64.77) (xy 349.25 -64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c24c85a4-1ad4-4281-a530-b452ff6f3887")
-	)
 	(bus
 		(pts
 			(xy 146.05 227.33) (xy 146.05 224.79)
@@ -25043,16 +24608,6 @@
 			(type default)
 		)
 		(uuid "c361f429-0363-4c84-b34d-de91bac97ba9")
-	)
-	(wire
-		(pts
-			(xy 317.5 -64.77) (xy 322.58 -64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3798510-227c-426c-b9ad-0c9579aac88f")
 	)
 	(wire
 		(pts
@@ -27464,26 +27019,6 @@
 			)
 		)
 	)
-	(global_label "~{CLK_HALF}"
-		(shape output)
-		(at 349.25 -64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8af372cf-06d4-43e5-9aae-db35e5f7b3f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.25 -64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HLT"
 		(shape input)
 		(at 50.8 -29.21 180)
@@ -27556,26 +27091,6 @@
 		(uuid "a6bf3c76-63c9-4b32-a53e-b4c122ebb3e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.8 -71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{CLK}"
-		(shape input)
-		(at 312.42 -62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8e51de9-38be-471d-a2e7-7351d165c670")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.42 -62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31814,112 +31329,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS74")
-		(at 330.2 -62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31aea54f-4e7b-481c-94ee-bf2a4d25aefb")
-		(property "Reference" "U1"
-			(at 332.3433 -72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS74"
-			(at 332.3433 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 330.2 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual D Flip-flop, Set & Reset"
-			(at 330.2 -62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "2770a292-77b1-43d5-a21f-a07d01cf0f90")
-		)
-		(pin "1"
-			(uuid "fa2f0866-748f-4998-914d-a0ce6ba53c58")
-		)
-		(pin "12"
-			(uuid "d293120f-8dc9-47a2-b4f8-ae9fc1506e43")
-		)
-		(pin "6"
-			(uuid "d11b26a5-d2af-4ed6-8e90-96820564e41d")
-		)
-		(pin "14"
-			(uuid "580ac415-6191-477b-af05-06be4eea098b")
-		)
-		(pin "5"
-			(uuid "c39ff243-315d-401e-a924-cb55f775bdb7")
-		)
-		(pin "13"
-			(uuid "88aeb18a-5b9a-4a64-9a3d-5010971f8e8b")
-		)
-		(pin "8"
-			(uuid "a35008ff-cfc6-4e99-ac79-18e0bdbca6a7")
-		)
-		(pin "7"
-			(uuid "63b95cf9-19cf-4bcd-b640-1dd85415699e")
-		)
-		(pin "10"
-			(uuid "245ec18f-e5b8-451a-85a8-21e4d08fd8a2")
-		)
-		(pin "11"
-			(uuid "dc60adb9-4bf1-40de-a143-3329ed95a0a7")
-		)
-		(pin "2"
-			(uuid "4ed9834c-9f76-404b-93d7-cfaf1ddb61b3")
-		)
-		(pin "9"
-			(uuid "882a5dcc-ab3f-4705-9c84-28e853d19cba")
-		)
-		(pin "3"
-			(uuid "234fdfd8-66fc-413a-8d92-6882d7ee3d03")
-		)
-		(instances
-			(project ""
-				(path "/6e4cebc6-dd58-4879-8795-195abcf058ff"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 336.55 -26.67 0)
 		(unit 1)
@@ -32119,7 +31528,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 330.2 -132.08 0)
+		(at 373.38 -111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32128,7 +31537,7 @@
 		(fields_autoplaced yes)
 		(uuid "36c6e5fa-ac84-4e09-80b2-b24e0ffbf3d8")
 		(property "Reference" "#PWR048"
-			(at 330.2 -128.27 0)
+			(at 373.38 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32137,7 +31546,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 330.2 -137.16 0)
+			(at 373.38 -116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32145,7 +31554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 -132.08 0)
+			(at 373.38 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32154,7 +31563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 -132.08 0)
+			(at 373.38 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32163,7 +31572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 330.2 -132.08 0)
+			(at 373.38 -111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34233,72 +33642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 330.2 -69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7632c2ad-fbad-44d9-a7b3-68a316492902")
-		(property "Reference" "#PWR050"
-			(at 330.2 -66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 330.2 -74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 330.2 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48bf1498-45a6-4f09-81e9-6dee860705f4")
-		)
-		(instances
-			(project "CarbonZ80"
-				(path "/6e4cebc6-dd58-4879-8795-195abcf058ff"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 368.3 91.44 0)
 		(unit 1)
@@ -34366,7 +33709,7 @@
 	)
 	(symbol
 		(lib_id "Clock_module-rescue:GND-power")
-		(at 330.2 -83.82 0)
+		(at 373.38 -63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34374,7 +33717,7 @@
 		(dnp no)
 		(uuid "7e4089cc-60b0-4835-ad3d-c71f30b11da9")
 		(property "Reference" "#PWR049"
-			(at 330.2 -77.47 0)
+			(at 373.38 -57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34383,7 +33726,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 330.327 -79.4258 0)
+			(at 373.507 -59.1058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34391,7 +33734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 -83.82 0)
+			(at 373.38 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34400,7 +33743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 -83.82 0)
+			(at 373.38 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34409,7 +33752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 -83.82 0)
+			(at 373.38 -63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34430,7 +33773,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS157")
-		(at 330.2 -109.22 0)
+		(at 373.38 -88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34439,7 +33782,7 @@
 		(fields_autoplaced yes)
 		(uuid "81b27ef8-9888-47ba-b481-b6e8368ed759")
 		(property "Reference" "U2"
-			(at 332.3433 -130.81 0)
+			(at 375.5233 -110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34448,7 +33791,7 @@
 			)
 		)
 		(property "Value" "74LS157"
-			(at 332.3433 -128.27 0)
+			(at 375.5233 -107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34457,7 +33800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 -109.22 0)
+			(at 373.38 -88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34466,7 +33809,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS157"
-			(at 330.2 -109.22 0)
+			(at 373.38 -88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34475,7 +33818,7 @@
 			)
 		)
 		(property "Description" "Quad 2 to 1 line Multiplexer"
-			(at 330.2 -109.22 0)
+			(at 373.38 -88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37292,72 +36635,6 @@
 			(project "CarbonZ80"
 				(path "/6e4cebc6-dd58-4879-8795-195abcf058ff"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 330.2 -54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd56c616-5f64-40e4-acda-469412cfe122")
-		(property "Reference" "#PWR051"
-			(at 330.2 -58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 330.2 -48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 -54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 -54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 330.2 -54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b24c6bde-6733-4306-931f-6728053a587d")
-		)
-		(instances
-			(project "CarbonZ80"
-				(path "/6e4cebc6-dd58-4879-8795-195abcf058ff"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
