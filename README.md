@@ -9,15 +9,15 @@
 
 - _CPU:_ **Abacus 2** or **Zilog Z80** (16-bit CISC)
 - _FPU:_ **AMD Am9511** (Pre-IEEE 754)
-- _Clock:_ 1 Hz ~ **16 MHz** (Crystal FM)
-- _RAM:_ 4 KB – **640 KB** (SRAM)
-- _ROM:_ 4 KB – **128 KB** (PROM)
+- _Clock:_ Up to **16 MHz** (Crystal FM)
+- _RAM:_ Up to **640 KB** (SRAM)
+- _ROM:_ Up to **128 KB** (PROM)
 - _I/O:_ Up to **256 KB** (Memory Mapped)
 - _TDD:_ **Compact Cassette** (KCS 240KB/hr)
 - _FDD:_ **Floppy Disk** (5.25" DSDD 360KB, 3.5" DSHD 1.44MB)
 - _Comms:_ **Serial** (RS-232), **Parallel** (DB-25)
-- _Video:_ **Yamaha V9958**, 480p (VESA compatible)
-- _Audio:_ **Yamaha OPNB** (SoundBlaster compatible)
+- _Video:_ **Yamaha V9958** or **TMS9918**
+- _Audio:_ **Yamaha OPNB** or **AY-3-8910**
 
 
 ## Design Showcase
@@ -32,9 +32,9 @@
 
 ### Memory and I/O
 
-4KB–640KB SRAM (8-bit bytes)
+Up to 640KB SRAM (8-bit bytes)
 
-4KB–128KB PROM (8-bit bytes)
+Up to 128KB PROM (8-bit bytes)
 
 Up to 256KB memory mapped I/O.
 
