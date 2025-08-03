@@ -7,7 +7,7 @@
 
 ## Specifications
 
-- _CPU:_ **Abacus 2** or **Zilog Z80** (16-bit CISC)
+- _CPU:_ **Abacus 2** or **Zilog Z80** (8-bit CISC)
 - _FPU:_ **AMD Am9511** (Pre-IEEE 754)
 - _Clock:_ Up to **16 MHz** (Crystal FM)
 - _RAM:_ Up to **640 KB** (SRAM)
